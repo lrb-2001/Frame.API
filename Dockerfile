@@ -12,7 +12,7 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-ADD railway-test.sh ./railway-test.sh
+# ADD railway-test.sh ./railway.sh
 
 # 把目录下的内容都复制到当前目录下
 COPY . .
