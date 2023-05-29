@@ -19,4 +19,4 @@ COPY . .
 
 # 运行镜像入口命令和可执行文件名称
 #ENTRYPOINT ["dotnet", "RailwayTest.dll"]
-ENTRYPOINT ["/bin/sh","railway-test.sh"]
+ENTRYPOINT ["/bin/sh","railway.sh"]
