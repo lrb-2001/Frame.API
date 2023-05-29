@@ -1,0 +1,1025 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Frame.System.Entity</name>
+    </assembly>
+    <members>
+        <member name="T:Frame.System.Entity.Dto.CodeGenConfig">
+            <summary>
+            代码生成详细配置参数
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.CodeGenId">
+            <summary>
+            代码生成主表ID
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.ColumnName">
+            <summary>
+            数据库字段名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.LowerColumnName">
+            <summary>
+            数据库字段名(首字母小写)
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.ColumnComment">
+            <summary>
+            字段描述
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.NetType">
+            <summary>
+            .NET类型
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.EffectType">
+            <summary>
+            作用类型（字典）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.FkEntityName">
+            <summary>
+            外键实体名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.FkTableName">
+            <summary>
+            外键表名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.LowerFkEntityName">
+            <summary>
+            外键实体名称(首字母小写)
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.FkColumnName">
+            <summary>
+            外键显示字段
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.LowerFkColumnName">
+            <summary>
+            外键显示字段(首字母小写)
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.FkColumnNetType">
+            <summary>
+            外键显示字段.NET类型
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.DictTypeCode">
+            <summary>
+            字典code
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.WhetherRetract">
+            <summary>
+            列表是否缩进（字典）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.WhetherRequired">
+            <summary>
+            是否必填（字典）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.QueryWhether">
+            <summary>
+            是否是查询条件
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.QueryType">
+            <summary>
+            查询方式
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.WhetherTable">
+            <summary>
+            列表显示
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.WhetherAddUpdate">
+            <summary>
+            增改
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.ColumnKey">
+            <summary>
+            主外键
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.DataType">
+            <summary>
+            数据库中类型（物理类型）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.WhetherCommon">
+            <summary>
+            是否是通用字段
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.TableNickName">
+            <summary>
+            表的别名 Table as XXX
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.DisplayColumn">
+            <summary>
+            显示文本字段
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.ValueColumn">
+            <summary>
+            选中值字段
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenConfig.PidColumn">
+            <summary>
+            父级字段
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.CodeGenInput">
+            <summary>
+            代码生成参数类
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.AuthorName">
+            <summary>
+            作者姓名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.ClassName">
+            <summary>
+            类名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.TablePrefix">
+            <summary>
+            是否移除表前缀
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.ConfigId">
+            <summary>
+            库定位器名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.DbName">
+            <summary>
+            数据库名(保留字段)
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.DbType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.ConnectionString">
+            <summary>
+            数据库链接
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.GenerateType">
+            <summary>
+            生成方式
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.TableName">
+            <summary>
+            数据库表名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.NameSpace">
+            <summary>
+            命名空间
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.BusName">
+            <summary>
+            业务名（业务代码包名称）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.TableComment">
+            <summary>
+            功能名（数据库表名称）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.MenuApplication">
+            <summary>
+            菜单应用分类（应用编码）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenInput.MenuPid">
+            <summary>
+            菜单父级
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.AddCodeGenInput">
+            <summary>
+            增加代码生成入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddCodeGenInput.TableName">
+            <summary>
+            数据库表名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddCodeGenInput.BusName">
+            <summary>
+            业务名（业务代码包名称）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddCodeGenInput.NameSpace">
+            <summary>
+            命名空间
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddCodeGenInput.AuthorName">
+            <summary>
+            作者姓名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddCodeGenInput.GenerateType">
+            <summary>
+            生成方式
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddCodeGenInput.MenuPid">
+            <summary>
+            菜单父级
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteCodeGenInput">
+            <summary>
+            删除代码生成入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.DeleteCodeGenInput.Id">
+            <summary>
+            代码生成器Id
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateCodeGenInput">
+            <summary>
+            修改代码生成入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.UpdateCodeGenInput.Id">
+            <summary>
+            代码生成器Id
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.QueryCodeGenInput">
+            <summary>
+            查询代码生成入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.ColumnOuput">
+            <summary>
+            数据库表列
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.ColumnOuput.ColumnName">
+            <summary>
+            字段名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.ColumnOuput.DataType">
+            <summary>
+            数据库中类型
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.ColumnOuput.NetType">
+            <summary>
+            .NET字段类型
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.ColumnOuput.ColumnComment">
+            <summary>
+            字段描述
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.ColumnOuput.ColumnKey">
+            <summary>
+            主外键
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGen.ConstOutput.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGen.ConstOutput.Code">
+            <summary>
+            编码
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGen.ConstOutput.Data">
+            <summary>
+            扩展字段
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CustomViewEngine.ConfigId">
+            <summary>
+            库定位器
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DatabaseOutput">
+            <summary>
+            数据库
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.DatabaseOutput.ConfigId">
+            <summary>
+            库定位器名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.DatabaseOutput.DbType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.DatabaseOutput.ConnectionString">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.EnumInput">
+            <summary>
+            枚举输入参数
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.EnumInput.EnumName">
+            <summary>
+            枚举类型名称
+            </summary>
+            <example>AccountTypeEnum</example>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.QueryEnumDataInput.EntityName">
+            <summary>
+            实体名称
+            </summary>
+            <example>SysUser</example>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.QueryEnumDataInput.FieldName">
+            <summary>
+            字段名称
+            </summary>
+            <example>AccountType</example>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.EnumTypeOutput">
+            <summary>
+            枚举类型输出参数
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.EnumTypeOutput.TypeDescribe">
+            <summary>
+            枚举类型描述
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.EnumTypeOutput.TypeName">
+            <summary>
+            枚举类型名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.EnumTypeOutput.TypeRemark">
+            <summary>
+            枚举类型备注
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.TableOutput">
+            <summary>
+            数据库表
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.TableOutput.ConfigId">
+            <summary>
+            库定位器名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.TableOutput.TableName">
+            <summary>
+            表名（字母形式的）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.TableOutput.EntityName">
+            <summary>
+            实体名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.TableOutput.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.TableOutput.UpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.TableOutput.TableComment">
+            <summary>
+            表名称描述（功能名）
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.CodeGenOptions">
+            <summary>
+            代码生成配置选项
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenOptions.EntityAssemblyNames">
+            <summary>
+            数据库实体程序集名称集合
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenOptions.BaseEntityNames">
+            <summary>
+            数据库基础实体名称集合
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenOptions.EntityBaseColumn">
+            <summary>
+            基础实体名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenOptions.FrontRootPath">
+            <summary>
+            前端文件根目录
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CodeGenOptions.BackendApplicationNamespace">
+            <summary>
+            后端生成到的项目
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.CreateEntityInput">
+            <summary>
+            创建实体入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CreateEntityInput.TableName">
+            <summary>
+            表名
+            </summary>
+            <example>student</example>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CreateEntityInput.EntityName">
+            <summary>
+            实体名
+            </summary>
+            <example>Student</example>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CreateEntityInput.BaseClassName">
+            <summary>
+            基类名
+            </summary>
+            <example>AutoIncrementEntity</example>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CreateEntityInput.Position">
+            <summary>
+            导出位置
+            </summary>
+            <example>Web.Application</example>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.CreateEntityInput.ConfigId">
+            <summary>
+            库标识
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DbColumnInput">
+            <summary>
+            增加列入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateDbColumnInput">
+            <summary>
+            修改列入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteDbColumnInput">
+            <summary>
+            删除列入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DbColumnOutput">
+            <summary>
+            获取字段列表反参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DbTableInput">
+            <summary>
+            新增表入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateDbTableInput">
+            <summary>
+            修改表入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteDbTableInput">
+            <summary>
+            删除表入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DictDataInput">
+            <summary>
+            修改字典值状态入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.DictDataInput.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.PageDictDataInput">
+            <summary>
+            获取字典值分页列表入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageDictDataInput.DictTypeId">
+            <summary>
+            字典类型Id
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageDictDataInput.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageDictDataInput.Code">
+            <summary>
+            编码
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.AddDictDataInput">
+            <summary>
+            增加字典值入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateDictDataInput">
+            <summary>
+            更新字典值入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteDictDataInput">
+            <summary>
+            删除字典值入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.GetDataDictDataInput">
+            <summary>
+            获取字典值列表入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.GetDataDictDataInput.DictTypeId">
+            <summary>
+            字典类型Id
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.QueryDictDataInput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.QueryDictDataInput.Code">
+            <summary>
+            编码
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.QueryDictDataInput.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DictTypeInput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.DictTypeInput.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.PageDictTypeInput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageDictTypeInput.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageDictTypeInput.Code">
+            <summary>
+            编码
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.AddDictTypeInput">
+            <summary>
+            新增字典类型入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateDictTypeInput">
+            <summary>
+            修改字典类型入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteDictTypeInput">
+            <summary>
+            删除字典类型入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.GetDataDictTypeInput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.GetDataDictTypeInput.Code">
+            <summary>
+            编码
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.PageOnlineUserInput">
+            <summary>
+            获取在线用户分页列表入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageOnlineUserInput.UserName">
+            <summary>
+            账号名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageOnlineUserInput.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.MenuInput">
+            <summary>
+            获取菜单列表入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuInput.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuInput.Type">
+            <summary>
+            菜单类型（1目录 2菜单 3按钮）
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.AddMenuInput">
+            <summary>
+            新增菜单入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddMenuInput.Title">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateMenuInput">
+            <summary>
+            更新菜单入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.MenuOutput">
+            <summary>
+            获取登录菜单树反参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Pid">
+            <summary>
+            父Id
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Type">
+            <summary>
+            菜单类型（0目录 1菜单 2按钮）
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Path">
+            <summary>
+            路由地址
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Component">
+            <summary>
+            组件路径
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Permission">
+            <summary>
+            权限标识
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Redirect">
+            <summary>
+            重定向
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Meta">
+            <summary>
+            菜单Meta
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.MenuOutput.Children">
+            <summary>
+            菜单子项
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.SysMenuMeta">
+            <summary>
+            菜单Meta配置
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.SysMenuMeta.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.SysMenuMeta.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.SysMenuMeta.IsHide">
+            <summary>
+            是否隐藏
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.SysMenuMapper">
+            <summary>
+            配置菜单对象映射
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.PageNoticeInput">
+            <summary>
+            获取通知公告分页列表入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageNoticeInput.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageNoticeInput.Type">
+            <summary>
+            类型（1通知 2公告）
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.AddNoticeInput">
+            <summary>
+            新增通知入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateNoticeInput">
+            <summary>
+            更新通知公告入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteNoticeInput">
+            <summary>
+            删除通知公告入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.NoticeInput">
+            <summary>
+            发布通知公告入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.RoleInput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.RoleInput.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.PageRoleInput">
+            <summary>
+            获取角色分页列表入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageRoleInput.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.AddRoleInput">
+            <summary>
+            新增角色入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddRoleInput.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddRoleInput.MenuIdList">
+            <summary>
+            菜单Id集合
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateRoleInput">
+            <summary>
+            更新角色入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteRoleInput">
+            <summary>
+            删除角色入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.RoleMenuInput">
+            <summary>
+            授权角色菜单
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.RoleMenuInput.MenuIdList">
+            <summary>
+            菜单Id集合
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.RoleOutput">
+            <summary>
+            角色列表反参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.RoleOutput.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.RoleOutput.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.RoleOutput.Code">
+            <summary>
+            角色编码
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.ConfigInput">
+            <summary>
+            配置详情入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.AddConfigInput">
+            <summary>
+            新增配置入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateConfigInput">
+            <summary>
+            更新配置入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteConfigInput">
+            <summary>
+            删除配置入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.PageConfigInput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageConfigInput.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageConfigInput.Key">
+            <summary>
+            键
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageConfigInput.Category">
+            <summary>
+            分组
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UserInput">
+            <summary>
+            设置用户状态入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.UserInput.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.PageUserInput">
+            <summary>
+            获取用户分页列表入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageUserInput.Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageUserInput.RealName">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageUserInput.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.AddUserInput">
+            <summary>
+            新增用户入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddUserInput.Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddUserInput.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.AddUserInput.RoleIdList">
+            <summary>
+            角色集合
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteUserInput">
+            <summary>
+            删除用户入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UpdateUserInput">
+            <summary>
+            更新用户入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.ChangePwdInput">
+            <summary>
+            修改用户密入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.ChangePwdInput.PasswordOld">
+            <summary>
+            当前密码
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.ChangePwdInput.PasswordNew">
+            <summary>
+            新密码
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.ResetPwdUserInput">
+            <summary>
+            重置用户密码入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.UserRoleInput">
+            <summary>
+            授权用户角色
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.UserRoleInput.UserId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.UserRoleInput.RoleIdList">
+            <summary>
+            角色Id集合
+            </summary>
+        </member>
+    </members>
+</doc>

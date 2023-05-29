@@ -1,0 +1,14 @@
+{
+  "SpecificationDocumentSettings": {
+    "DocumentTitle": "Frame.API",
+    "DocExpansionState": "None",
+    "GroupOpenApiInfos": [
+      {
+        "Group": "Default",
+        "Title": "Frame.System",
+        "Description": "",
+        "Version": "6.1.0"
+      }
+    ]
+  }
+}

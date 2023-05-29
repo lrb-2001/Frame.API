@@ -1,0 +1,6 @@
+{
+  "Cache": {
+    "CacheType": "RedisCache", //MemoryCache,RedisCache
+    "RedisConnectionString": "1.15.63.248:6379,abortConnect=false,password=foobared"
+  }
+}

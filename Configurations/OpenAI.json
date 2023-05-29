@@ -1,0 +1,8 @@
+{
+  "OpenAI": {
+    "openAiKey": "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",
+    "openAiCompletionsUrl": "https://api.openai.com/v1/completions",
+    "completionsGPT3_5Url": "https://api.openai.com/v1/chat/completions",
+    "openAiImageUrl": "https://api.openai.com/v1/images/generations"
+  }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Frame.OpenAI</name>
+    </assembly>
+    <members>
+        <member name="T:Frame.OpenAI.RobotService">
+            <summary>
+            OpenAI
+            </summary>
+        </member>
+        <member name="M:Frame.OpenAI.RobotService.#ctor(Frame.Common.Core.Manager.ICacheManager)">
+            <summary>
+            
+            </summary>
+            <param name="cache"></param>
+        </member>
+        <member name="M:Frame.OpenAI.RobotService.CompletionsGPT3_5(Frame.OpenAI.Entity.Dto.GPT3_5Input)">
+            <summary>
+            OpenAI对话GPT3.5
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

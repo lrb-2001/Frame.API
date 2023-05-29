@@ -1,0 +1,42 @@
+{
+  "$schema": "https://gitee.com/dotnetchina/Furion/raw/net6/schemas/v3/furion-schema.json",
+
+  "DynamicApiControllerSettings": {
+    "KeepName": true,
+    //"DefaultRoutePrefix": "api", // 默认路由前缀
+    "CamelCaseSeparator": "", // 骆驼(驼峰)/帕斯卡命名分隔符
+    "LowercaseRoute": false, // 小写路由格式
+    "AsLowerCamelCase": true, // 启用小驼峰命名（首字母小写）
+    "DefaultHttpMethod": "POST",
+    "VerbToHttpMethods": [ //修改默认所有接口为post接口，重写默认
+      [ "post", "POST" ],
+      [ "add", "POST" ],
+      [ "create", "POST" ],
+      [ "insert", "POST" ],
+      [ "submit", "POST" ],
+      [ "get", "POST" ],
+      [ "find", "POST" ],
+      [ "fetch", "POST" ],
+      [ "query", "POST" ],
+      [ "getlist", "POST" ],
+      [ "getall", "POST" ],
+      [ "put", "POST" ],
+      [ "update", "POST" ],
+      [ "delete", "POST" ],
+      [ "remove", "POST" ],
+      [ "clear", "POST" ],
+      [ "patch", "POST" ]
+    ]
+  },
+  "CorsAccessorSettings": {
+    "WithExposedHeaders": [
+      "access-token",
+      "x-access-token",
+      "environment",
+      "Content-Disposition",
+      "X-Pagination",
+      "Access-Control-Allow-Origin"
+    ],
+    "SignalRSupport": true // 启用 SignalR 跨域支持
+  }
+}
