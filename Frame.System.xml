@@ -127,6 +127,13 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Frame.System.CodeGen.SysCodeGenService.PreviewCode(Frame.System.Entity.Dto.DeleteCodeGenInput)">
+            <summary>
+            预览代码
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
         <member name="M:Frame.System.CodeGen.SysCodeGenService.GetJoinTableStr(System.Collections.Generic.List{Frame.System.Entity.Dto.CodeGenConfig})">
             <summary>
             获取连表的实体名和别名
@@ -216,6 +223,198 @@
             通过实体的字段名获取相关枚举值集合（目前仅支持枚举类型）
             </summary>
             <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Frame.System.Common.SysFileService">
+            <summary>
+            文件服务
+            </summary>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.Page(Frame.System.Entity.Dto.PageFileInput)">
+            <summary>
+            获取文件分页列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.GetFileInfo(Frame.System.Entity.Dto.GetFileInfoInput)">
+            <summary>
+            获取文件信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.UploadFile(Microsoft.AspNetCore.Http.IFormFile,System.Boolean)">
+            <summary>
+            上传文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.UploadAvatar(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            上传头像文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.UploadSystem(Microsoft.AspNetCore.Http.IFormFile,System.Boolean)">
+            <summary>
+            上传系统文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.HandleUploadFile(Microsoft.AspNetCore.Http.IFormFile,System.String,System.Boolean)">
+            <summary>
+            上传文件
+            </summary>
+            <param name="file"></param>
+            <param name="pathType"></param>
+            <param name="isKeepName">是否保持原有名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.DownloadFile(System.String)">
+            <summary>
+            下载文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.DownloadFile(Frame.System.Entity.Dto.DownloadFileInput)">
+            <summary>
+            下载文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.DeleteFile(Frame.System.Entity.Dto.DeleteFileInput)">
+            <summary>
+            删除文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.GetBuckets">
+            <summary>
+            获取 Bucket 列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.GetFiles">
+            <summary>
+            获取文件列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.GetPathByType(System.String)">
+            <summary>
+            根据类型获取文件存储路径.
+            </summary>
+            <param name="type">文件类型.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysFileService.AllowFileType(System.String)">
+            <summary>
+            允许文件类型.
+            </summary>
+            <param name="fileExtension">文件后缀名.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Frame.System.Common.SysThirdInfoService">
+            <summary>
+            第三方信息
+            </summary>
+        </member>
+        <member name="M:Frame.System.Common.SysThirdInfoService.MPQRcode">
+            <summary>
+            获取订阅号二维码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysThirdInfoService.WXApiService">
+            <summary>
+            扫码事件
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.Common.SysThirdInfoService.Subscribe(System.String)">
+            <summary>
+            未关注关注事件
+            </summary>
+            <param name="openId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Frame.System.System.SysConfigService">
+            <summary>
+            系统参数配置服务
+            </summary>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.Page(Frame.System.Entity.Dto.PageConfigInput)">
+            <summary>
+            获取参数配置分页列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.GetList">
+            <summary>
+            获取参数配置列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.AddConfig(Frame.System.Entity.Dto.AddConfigInput)">
+            <summary>
+            增加参数配置
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.UpdateConfig(Frame.System.Entity.Dto.UpdateConfigInput)">
+            <summary>
+            更新参数配置
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.DeleteConfig(Frame.System.Entity.Dto.DeleteConfigInput)">
+            <summary>
+            删除参数配置
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.BatchDeleteConfig(System.Collections.Generic.List{System.String})">
+            <summary>
+            批量删除参数配置
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.GetDetail(Frame.System.Entity.Dto.ConfigInput)">
+            <summary>
+            获取参数配置详情
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.GetConfigValue``1(System.String)">
+            <summary>
+            获取参数配置值
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.GetGroupList">
+            <summary>
+            获取分组列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.GetTokenExpire">
+            <summary>
+            获取 Token 过期时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.System.System.SysConfigService.GetRefreshTokenExpire">
+            <summary>
+            获取 RefreshToken 过期时间
+            </summary>
             <returns></returns>
         </member>
         <member name="T:Frame.System.DataBase.SysDatabaseService">
@@ -445,6 +644,11 @@
             </summary>
             <param name="input"></param>
             <returns></returns>
+        </member>
+        <member name="T:Frame.System.Logging.SysLogExService">
+            <summary>
+            系统异常日志服务
+            </summary>
         </member>
         <member name="T:Frame.System.Menu.SysMenuService">
             <summary>
@@ -682,84 +886,6 @@
             设置角色状态
             </summary>
             <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Frame.System.System.SysConfigService">
-            <summary>
-            系统参数配置服务
-            </summary>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.Page(Frame.System.Entity.Dto.PageConfigInput)">
-            <summary>
-            获取参数配置分页列表
-            </summary>
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.GetList">
-            <summary>
-            获取参数配置列表
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.AddConfig(Frame.System.Entity.Dto.AddConfigInput)">
-            <summary>
-            增加参数配置
-            </summary>
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.UpdateConfig(Frame.System.Entity.Dto.UpdateConfigInput)">
-            <summary>
-            更新参数配置
-            </summary>
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.DeleteConfig(Frame.System.Entity.Dto.DeleteConfigInput)">
-            <summary>
-            删除参数配置
-            </summary>
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.BatchDeleteConfig(System.Collections.Generic.List{System.String})">
-            <summary>
-            批量删除参数配置
-            </summary>
-            <param name="ids"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.GetDetail(Frame.System.Entity.Dto.ConfigInput)">
-            <summary>
-            获取参数配置详情
-            </summary>
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.GetConfigValue``1(System.String)">
-            <summary>
-            获取参数配置值
-            </summary>
-            <param name="code"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.GetGroupList">
-            <summary>
-            获取分组列表
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.GetTokenExpire">
-            <summary>
-            获取 Token 过期时间
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Frame.System.System.SysConfigService.GetRefreshTokenExpire">
-            <summary>
-            获取 RefreshToken 过期时间
-            </summary>
             <returns></returns>
         </member>
         <member name="T:Frame.System.User.SysUserRoleService">

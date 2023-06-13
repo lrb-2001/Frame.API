@@ -94,6 +94,30 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:Frame.Common.Core.Files.FileManager">
+            <summary>
+            文件管理
+            </summary>
+        </member>
+        <member name="M:Frame.Common.Core.Files.FileManager.GetPathByType(System.String)">
+            <summary>
+            根据类型获取文件存储路径.
+            </summary>
+            <param name="type">文件类型.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Frame.Common.Core.Files.IFileManager">
+            <summary>
+            文件管理
+            </summary>
+        </member>
+        <member name="M:Frame.Common.Core.Files.IFileManager.GetPathByType(System.String)">
+            <summary>
+            根据类型获取文件存储路径.
+            </summary>
+            <param name="type">文件类型.</param>
+            <returns></returns>
+        </member>
         <member name="T:Frame.Common.Core.Hub.OnlineUserHubInput">
             <summary>
             强制下线
@@ -184,6 +208,33 @@
             </summary>
             <param name="message"></param>
             <returns></returns>
+        </member>
+        <member name="T:Frame.Common.Core.Job.OnlineUserJob">
+            <summary>
+            清理在线用户作业任务
+            </summary>
+        </member>
+        <member name="T:Frame.Common.Core.Logging.DatabaseLoggingWriter">
+            <summary>
+            数据库日志写入器
+            </summary>
+        </member>
+        <member name="M:Frame.Common.Core.Logging.DatabaseLoggingWriter.GetIpAddress(System.String)">
+            <summary>
+            解析IP地址
+            </summary>
+            <param name="ip"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Frame.Common.Core.Logging.ElasticSearchLoggingWriter">
+            <summary>
+            ES日志写入器
+            </summary>
+        </member>
+        <member name="T:Frame.Common.Core.Logging.ElasticSearchSetup">
+            <summary>
+            ES服务注册
+            </summary>
         </member>
         <member name="T:Frame.Common.Core.Manager.CacheManager">
             <summary>

@@ -136,7 +136,7 @@
             系统登录授权服务
             </summary>
         </member>
-        <member name="M:Frame.OAuth.SysAuthService.#ctor(Frame.Common.Core.Captcha.General.GeneralCaptcha,Frame.System.Interface.ISysConfigService,Microsoft.AspNetCore.Http.IHttpContextAccessor,Frame.Model.User.UserBase,Frame.Respository.IRepositoryBase{Frame.Model.System.SysUser},Frame.System.Interface.ISysMenuService,Frame.System.Interface.IOnlineUserService)">
+        <member name="M:Frame.OAuth.SysAuthService.#ctor(Frame.Common.Core.Captcha.General.GeneralCaptcha,Frame.System.Interface.ISysConfigService,Microsoft.AspNetCore.Http.IHttpContextAccessor,Frame.Model.User.UserBase,Frame.Respository.IRepositoryBase{Frame.Model.System.SysUser},Frame.System.Interface.ISysMenuService,Frame.System.Interface.System.IOnlineUserService,Frame.Common.Core.Manager.ICacheManager,Frame.Respository.IRepositoryKey{Frame.System.Entity.Entity.SysScanScene})">
             <summary>
             
             </summary>
@@ -147,6 +147,12 @@
             </summary>
             <param name="input"></param>
             <remarks>用户名/密码：superadmin/123456</remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Frame.OAuth.SysAuthService.Login(System.String)">
+            <summary>
+            扫码登录系统
+            </summary>
             <returns></returns>
         </member>
         <member name="M:Frame.OAuth.SysAuthService.GetUserInfo">

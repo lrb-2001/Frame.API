@@ -1,6 +1,11 @@
 {
   "$schema": "https://gitee.com/dotnetchina/Furion/raw/net6/schemas/v3/furion-schema.json",
 
+  "Frame_APP": {
+    //允许上传文件类型
+    "AllowUploadFileType": [ "jpg", "jpge", "svg","ico", "mp3", "gif", "png", "bmp", "jpeg", "doc", "docx", "ppt", "pptx", "xls", "xlsx", "pdf", "txt", "rar", "tar", "zip", "csv" ]
+  },
+
   "DynamicApiControllerSettings": {
     "KeepName": true,
     //"DefaultRoutePrefix": "api", // 默认路由前缀

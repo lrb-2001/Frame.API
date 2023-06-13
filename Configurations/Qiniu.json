@@ -1,0 +1,9 @@
+{
+  "Qiniu": {
+    "AK": "Xmus-pCNBqG9L4M2bNbJhDtPd-PNRmPB-AMiqHhk",
+    "SK": "nFfyc-5EPFJClR7XXbOa7dYZteCeR_zUVtHWjCNZ",
+    "Bucket": "framecore",
+    "PrefixPath": "uploadtest/",
+    "Host": "https://lrb.icu/"
+  }
+}

@@ -646,6 +646,91 @@
             编码
             </summary>
         </member>
+        <member name="T:Frame.System.Entity.Dto.FileInput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.PageFileInput">
+            <summary>
+            分页查询入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageFileInput.FileName">
+            <summary>
+            文件名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageFileInput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.PageFileInput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.GetFileInfoInput">
+            <summary>
+            获取文件信息入参
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.GetFileInfoInput.filePath">
+            <summary>
+            文件路径
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DownloadFileInput">
+            <summary>
+            下载文件入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.DeleteFileInput">
+            <summary>
+            删除文件入参
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Dto.FileOutput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.FileOutput.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.FileOutput.Provider">
+            <summary>
+            提供者
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.FileOutput.Url">
+            <summary>
+            URL
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.FileOutput.SizeKb">
+            <summary>
+            大小
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.FileOutput.Suffix">
+            <summary>
+            后缀
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.FileOutput.FilePath">
+            <summary>
+            路径
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Dto.FileOutput.FileName">
+            <summary>
+            文件名称
+            </summary>
+        </member>
         <member name="T:Frame.System.Entity.Dto.PageOnlineUserInput">
             <summary>
             获取在线用户分页列表入参
@@ -1019,6 +1104,116 @@
         <member name="P:Frame.System.Entity.Dto.UserRoleInput.RoleIdList">
             <summary>
             角色Id集合
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Entity.SysFile">
+            <summary>
+            系统文件表
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysFile.Provider">
+            <summary>
+            提供者
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysFile.BucketName">
+            <summary>
+            仓储名称
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysFile.FileName">
+            <summary>
+            文件名称（上传时名称）
+            </summary>文件名称
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysFile.Suffix">
+            <summary>
+            文件后缀
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysFile.FilePath">
+            <summary>
+            存储路径
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysFile.SizeKb">
+            <summary>
+            文件大小KB
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysFile.SizeInfo">
+            <summary>
+            文件大小信息-计算后的
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysFile.Url">
+            <summary>
+            外链地址-OSS上传后生成外链地址方便前端预览
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Entity.SysScanScene">
+            <summary>
+            扫码场景表
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysScanScene.SceneValue">
+            <summary>
+            场景值
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysScanScene.Ticket">
+            <summary>
+            微信ticket
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysScanScene.RelationId">
+            <summary>
+            关联ID
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysScanScene.OpenId">
+            <summary>
+            OpenId
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysScanScene.UnionId">
+            <summary>
+            UnionId
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysScanScene.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Frame.System.Entity.Entity.SysThirdInfo">
+            <summary>
+            第三方信息表
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysThirdInfo.UserId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysThirdInfo.ThirdType">
+            <summary>
+            第三方类型
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysThirdInfo.UnionId">
+            <summary>
+            UnionId
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysThirdInfo.OpenId">
+            <summary>
+            OpenId
+            </summary>
+        </member>
+        <member name="P:Frame.System.Entity.Entity.SysThirdInfo.Remark">
+            <summary>
+            备注
             </summary>
         </member>
     </members>
