@@ -1,0 +1,22 @@
+info: 2023-06-13 17:25:53(+08:00) 星期二 L System.Logging.TaskQueueService[0] #1
+      TaskQueue hosted service is running.
+info: 2023-06-13 17:25:53(+08:00) 星期二 L System.Logging.ScheduleService[0] #1
+      Schedule hosted service is running.
+info: 2023-06-13 17:25:53(+08:00) 星期二 L System.Logging.ScheduleService[0] #1
+      Schedule hosted service is preloading...
+info: 2023-06-13 17:25:53(+08:00) 星期二 L System.Logging.ScheduleService[0] #1
+      The <job1_trigger1> trigger for scheduler of <job1> successfully appended to the schedule.
+info: 2023-06-13 17:25:53(+08:00) 星期二 L System.Logging.ScheduleService[0] #1
+      The scheduler of <job1> successfully appended to the schedule.
+info: 2023-06-13 17:25:53(+08:00) 星期二 L System.Logging.EventBusService[0] #1
+      EventBus hosted service is running.
+info: 2023-06-13 17:25:54(+08:00) 星期二 L Microsoft.Hosting.Lifetime[14] #1
+      Now listening on: http://localhost:5000
+info: 2023-06-13 17:25:54(+08:00) 星期二 L Microsoft.Hosting.Lifetime[14] #1
+      Now listening on: https://localhost:5001
+info: 2023-06-13 17:25:54(+08:00) 星期二 L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2023-06-13 17:25:54(+08:00) 星期二 L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Production
+info: 2023-06-13 17:25:54(+08:00) 星期二 L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: D:\工具\火车头\Frame.API\
